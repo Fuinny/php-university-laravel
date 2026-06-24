@@ -1,0 +1,37 @@
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment files anywhere in the repo
+.env
+.env.backup
+.env.production
+
+# IDEs and Editors configuration directories
+**/.fleet/
+**/.idea/
+**/.nova/
+**/.vscode/
+**/.zed/
+.phpactor.json
+
+# Build and testing caches
+**/.phpunit.cache/
+.phpunit.result.cache
+
+# Application / Package Dependencies
+**/node_modules/
+**/vendor/
+auth.json
+
+# Laravel-specific build and compiled assets
+**/public/build/
+**/public/hot/
+**/public/storage/
+**/storage/*.key
+**/storage/pail/
+
+# Local server configurations
+Homestead.json
+Homestead.yaml
